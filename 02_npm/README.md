@@ -43,7 +43,7 @@ visit [npm Docs](https://docs.npmjs.com/)
  ``` 
  ### Update Packages
  You can share 'package.json' to your team.
- copy this file to other members source's root. and run below.
+ copy this file to other members source's root. and run as below.
  ```
  npm install
  ```
@@ -52,7 +52,7 @@ visit [npm Docs](https://docs.npmjs.com/)
  npm update
  ```
 
- Example package.json
+ Example : package.json
  ```
  {
   "name": "package_sample",
@@ -82,35 +82,41 @@ It is better to Use Local Library for Dependency of specific version
 
 ## Recommanded packages for Tutorial
 ### async
-powerful asyncFunctions, refer to https://caolan.github.io/async/v3/
+powerful Async-Functions. refer to https://caolan.github.io/async/v3/
 ```
 npm install async
 ```
 ### pug
-html renderer, insteed of 'jade(deprecated)', refer to https://pugjs.org/
+html renderer. instead of 'jade(deprecated)'. refer to https://pugjs.org/
 ```
  npm install pug
  ```
  ### pm2
- process management, refer to https://pm2.keymetrics.io/
+ process management. refer to https://pm2.keymetrics.io/
  ```
  npm install pm2
  ```
- 4. mocha : javascript test framework, refer to https://mochajs.org/
+ ### mocha
+ javascript test framework. refer to https://mochajs.org/
  ```
  npm install mocha
  ```
- 5. express : web framework, refer to http://expressjs.com/
+ ### express
+ web framework. refer to http://expressjs.com/
  ```
  npm install express
  ```
- 6. nodemon : automatically restarting the node applications, refer to https://nodemon.io/
+ ### nodemon
+ automatically restarting the node applications. refer to https://nodemon.io/
  ```
  npm install -g nodemon
+ ```
+ using nodemon
+ ```
  nodemon test.js
  ```
  ## Create Customs Module (Export Module)
- xxxxxx : name of the function , class or object.
+ xxxxxx : name of the function, class or object.
 ```javascript
 module.exports.XXXXX = function(){}  
 module.exports = XXXXX;
