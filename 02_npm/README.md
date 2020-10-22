@@ -10,39 +10,6 @@ visit [www.npmjs.com](https://www.npmjs.com/)
 ## npm Docs
 visit [npm Docs](https://docs.npmjs.com/)
 
-## Recommand
-It is better to Use Local Library for Dependency of specific version
-
-## REcommanded packages for Tutorial
-### async
-powerful asyncFunctions, refer to https://caolan.github.io/async/v3/
-```
-npm install async
-```
-### pug
-html renderer, insteed of 'jade(deprecated)', refer to https://pugjs.org/
-```
- npm install pug
- ```
- ### pm2
- process management, refer to https://pm2.keymetrics.io/
- ```
- npm install pm2
- ```
- 4. mocha : javascript test framework, refer to https://mochajs.org/
- ```
- npm install mocha
- ```
- 5. express : web framework, refer to http://expressjs.com/
- ```
- npm install express
- ```
- 6. nodemon : automatically restarting the node applications, refer to https://nodemon.io/
- ```
- npm install -g nodemon
- nodemon test.js
- ```
-
  ## npm Commands
  ### Init Package.json(Package configuration file)
  make a package.json with default questions
@@ -106,7 +73,42 @@ html renderer, insteed of 'jade(deprecated)', refer to https://pugjs.org/
   }
  }
 ```
- 
+
+
+
+
+## Recommand
+It is better to Use Local Library for Dependency of specific version
+
+## Recommanded packages for Tutorial
+### async
+powerful asyncFunctions, refer to https://caolan.github.io/async/v3/
+```
+npm install async
+```
+### pug
+html renderer, insteed of 'jade(deprecated)', refer to https://pugjs.org/
+```
+ npm install pug
+ ```
+ ### pm2
+ process management, refer to https://pm2.keymetrics.io/
+ ```
+ npm install pm2
+ ```
+ 4. mocha : javascript test framework, refer to https://mochajs.org/
+ ```
+ npm install mocha
+ ```
+ 5. express : web framework, refer to http://expressjs.com/
+ ```
+ npm install express
+ ```
+ 6. nodemon : automatically restarting the node applications, refer to https://nodemon.io/
+ ```
+ npm install -g nodemon
+ nodemon test.js
+ ```
  ## Create Customs Module (Export Module)
  xxxxxx : name of the function , class or object.
 ```javascript
