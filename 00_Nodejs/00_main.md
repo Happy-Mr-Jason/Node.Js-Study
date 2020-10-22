@@ -1,4 +1,3 @@
-console.log('Hello Node.js');
 /*
     Node js
     1> Use REPL Command.
