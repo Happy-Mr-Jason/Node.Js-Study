@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-exercise",
+  "version": "1.0.0",
+  "description": "Node.js Exercise codes",
+  "main": "00_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Happy-Mr-Jason/Node.Js-Study.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "sjlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Happy-Mr-Jason/Node.Js-Study/issues"
+  },
+  "homepage": "https://github.com/Happy-Mr-Jason/Node.Js-Study#readme",
+  "dependencies": {
+    "async": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  }
+}
