@@ -1,11 +1,17 @@
-/*
- * There are Modules included in base API 
- * 1. Process
- *   - os, process, cluster...
- * 2. File / URL
- *   - fs, path, URL, querystring, stream...
- * 3. Network Modules
- *   - http, https, net, dgram, dns...
- * 4. Global Modules
- *   - process, console, Buffer, require, __filename, __dirname , module, exports, Timeout
- */
+# Basic Modules
+## What is the Basic module?
+### There are basic Modules included in node.js API
+1. Process : os, process, cluster...
+2. File / URL : fs, path, URL, querystring, stream...
+3. Network : http, https, net, dgram, dns...
+
+## Global Modules
+ 1. process
+ 2. console
+ 3. Buffer
+ 4. require
+ 5. __filename
+ 6. __dirname
+ 7. module
+ 8. exports
+ 9. Timeout... 
