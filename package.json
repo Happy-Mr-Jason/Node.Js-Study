@@ -2,7 +2,7 @@
   "name": "nodejs-exercise",
   "version": "1.0.0",
   "description": "Node.js Exercise codes",
-  "main": "00_main.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
