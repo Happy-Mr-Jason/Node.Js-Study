@@ -69,6 +69,16 @@ function showMovieList(res) {
             p {
                 margin: 0;
             }
+
+            tr td:first-child{
+                background-color: lightgray;
+                font-weight: bold;
+            }
+
+            input{
+                width : 100%;
+            }
+
         </style>
     </head>
     
@@ -101,7 +111,7 @@ function showMovieList(res) {
                     <tbody>
                         <tr>
                             <td>
-                                <label>Movie Title : </label>
+                                <label>Movie Title</label>
                             </td>
                             <td>
                                 <input type="text" name="title" placeholder="Title">
@@ -109,7 +119,7 @@ function showMovieList(res) {
                         </tr>
                         <tr>
                             <td>
-                                <label>Director Name : </label>
+                                <label>Director Name</label>
                             </td>
                             <td>
                                 <input type="text" name="director" placeholder="Director">
@@ -117,7 +127,7 @@ function showMovieList(res) {
                         </tr>
                         <tr>
                             <td>
-                                <label>Created Year : </label>
+                                <label>Created Year</label>
                             </td>
                             <td>
                                 <input type="number" name="year" placeholder="Year">
@@ -125,15 +135,21 @@ function showMovieList(res) {
                         </tr>
                         <tr>
                             <td>
-                                <label>Poster Image : </label>
+                                <label>Poster Image</label>
                             </td>
                             <td>
                                 <input type="file" name="image" value="Select a File">
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="upload">
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <input type="submit" value="upload">
                 </div>
             </form>
         </div>
