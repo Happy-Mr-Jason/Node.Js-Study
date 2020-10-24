@@ -2,7 +2,6 @@
   "name": "nodejs-exercise",
   "version": "1.0.0",
   "description": "Node.js Exercise codes",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +19,8 @@
   },
   "homepage": "https://github.com/Happy-Mr-Jason/Node.Js-Study#readme",
   "dependencies": {
-    "async": "^3.2.0"
+    "async": "^3.2.0",
+    "formidable": "^1.2.2"
   },
   "devDependencies": {
     "mocha": "^8.2.0"

@@ -1,2 +1,5 @@
 node_modules/
 .vscode/
+04_HTTP/06_images/image_*
+04_HTTP/06_upload/upload_*
+04_HTTP/06_postrequest3.html
