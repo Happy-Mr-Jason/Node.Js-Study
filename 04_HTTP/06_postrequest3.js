@@ -78,9 +78,11 @@ function showMovieList(res) {
 
     moviList.forEach(function (item) {
         body += `<div class='card'>
-            <div class='image'>
-            <img src="${item.image}" style="height: 150px;">
-            </div>
+            <div class='image'>`
+        if (item.image && item.image.indexOf('.jpg') > 0) {
+            body += `<img src="${item.image}" style="height: 150px;">`
+        }
+        body += `</div>
             <div class='text'>
             <p>Title : ${item.title}</p>
             <p>Director : ${item.director}</p>
@@ -91,7 +93,7 @@ function showMovieList(res) {
 
     body += `</div>
         <div>
-            <form method="post" enctype="multipart/form-data" action="/">
+            <form method="post" enctype="multipart/form-data" action=".">
                 <table>
                     <thead>
                         <th colspan="2" style="text-align: center;">Enter New Movie</th>
@@ -118,7 +120,7 @@ function showMovieList(res) {
                                 <label>Created Year : </label>
                             </td>
                             <td>
-                                <input type="text" name="year" placeholder="Year">
+                                <input type="number" name="year" placeholder="Year">
                             </td>
                         </tr>
                         <tr>
@@ -139,7 +141,9 @@ function showMovieList(res) {
     
     </html>`;
 
-    res.statusCode = 200;
+    res.writeHead(200, {
+        'Content-Type': 'text/html'
+    });
     res.end(body);
 }
 
