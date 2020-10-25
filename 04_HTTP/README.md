@@ -10,7 +10,9 @@ refer to [MDN web docs : HTTP](https://developer.mozilla.org/docs/Web/HTTP)
 Web browser > Entire Address > Request > Web Server > Response > Web browser
 
 ## URL (Uniform Resource Locator)
-Protocol://Hostname/Path?QueryString
+```
+scheme:[//[user[:password]@]host[:port]][/path][?query][#fragment]
+```
 
 ## HTTP messages
 HTTP messages are how data is exchanged between a server and a client. There are two types of messages: requests sent by the client to trigger an action on the server, and responses, the answer from the server.
