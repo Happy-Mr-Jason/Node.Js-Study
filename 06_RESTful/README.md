@@ -17,3 +17,9 @@ refer to [REST API Turoial](https://restfulapi.net/)
 - Handling HTTP Methods
 - Request Message
 - Response Message
+
+## Example Json for Movie list
+
+refer to https://github.com/mikeleguedes/json-movie-list
+
+
