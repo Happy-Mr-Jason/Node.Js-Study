@@ -89,34 +89,34 @@ npm install async
 ### pug
 html renderer. instead of 'jade(deprecated)'. refer to https://pugjs.org/
 ```
- npm install pug
- ```
- ### pm2
- process management. refer to https://pm2.keymetrics.io/
- ```
- npm install pm2
- ```
- ### mocha
- javascript test framework. refer to https://mochajs.org/
- ```
- npm install mocha
- ```
- ### express
- web framework. refer to http://expressjs.com/
- ```
- npm install express
- ```
- ### nodemon
- automatically restarting the node applications. refer to https://nodemon.io/
- ```
- npm install -g nodemon
- ```
- using nodemon
- ```
- nodemon test.js
- ```
- ## Create Customs Module (Export Module)
- xxxxxx : name of the function, class or object.
+npm install pug
+```
+### pm2
+process management. refer to https://pm2.keymetrics.io/
+```
+npm install pm2
+```
+### mocha
+javascript test framework. refer to https://mochajs.org/
+```
+npm install mocha
+```
+### express
+web framework. refer to http://expressjs.com/
+```
+npm install express
+```
+### nodemon
+automatically restarting the node applications. refer to https://nodemon.io/
+```
+npm install -g nodemon
+```
+using nodemon
+```
+nodemon test.js
+```
+## Create Customs Module (Export Module)
+xxxxxx : name of the function, class or object.
 ```javascript
 module.exports.XXXXX = function(){}  
 module.exports = XXXXX;
