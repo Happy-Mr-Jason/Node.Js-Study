@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Happy-Mr-Jason/Node.Js-Study#readme",
   "dependencies": {
     "async": "^3.2.0",
+    "express": "^4.17.1",
     "fast-xml-parser": "^3.17.4",
     "formidable": "^1.2.2",
     "he": "^1.2.0"
