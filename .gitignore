@@ -4,3 +4,4 @@ node_modules/
 04_HTTP/06_upload/upload_*
 04_HTTP/06_postrequest3.html
 */dist/
+*/resources/js/dist/
