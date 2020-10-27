@@ -4,7 +4,7 @@ refer to [Expressjs.com](http://expressjs.com/)
 
 ## Installation
 
-```
+```command
 npm install express
 ```
 
@@ -31,7 +31,7 @@ refer to [Express application generator](http://expressjs.com/en/starter/generat
 app.METHOD(PATH, HANDLER);
 ```
 
-#### Route methods(Basic routing)
+### Route methods(Basic routing)
 
 Example
 
@@ -54,23 +54,23 @@ app.delete("/user", function (req, res) {
 });
 ```
 
-#### Route paths
+### Route paths
 
 refer to [Express Guide : Routing](http://expressjs.com/en/guide/routing.html)
 
-#### Route parameters
+### Route parameters
 
 refer to [Express Guide : Routing](http://expressjs.com/en/guide/routing.html)
 
-#### Route handlers
+### Route handlers
 
 refer to [Express Guide : Routing](http://expressjs.com/en/guide/routing.html)
 
-#### app.route()
+### app.route()
 
 refer to [Express Guide : Routing](http://expressjs.com/en/guide/routing.html)
 
-#### express.Router
+### express.Router
 
 refer to [Express Guide : Routing](http://expressjs.com/en/guide/routing.html)
 
@@ -87,7 +87,7 @@ refer to [Express Guide : Using middleware](http://expressjs.com/en/guide/using-
 app.use([Path], function[,function...]);
 ```
 
-### Middleware functions can perform the following tasks:
+### Middleware functions can perform the following tasks
 
 - Execute any code.
 - Make changes to the request and the response objects.
@@ -138,12 +138,12 @@ refer to [Express API reference : express()](http://expressjs.com/en/4x/api.html
 
 refer to [Express API reference : Application](http://expressjs.com/en/4x/api.html#app)
 
-#### Properties
+Properties
 
 - app.locals
 - app.mountpath
 
-#### Methods
+Methods
 
 - app.get()
 - app.listen()
@@ -156,7 +156,7 @@ refer to [Express API reference : Application](http://expressjs.com/en/4x/api.ht
 
 refer to [Express API reference : Reqeust](http://expressjs.com/en/4x/api.html#req)
 
-#### Properties
+Properties
 
 - req.app
 - req.query
@@ -165,7 +165,7 @@ refer to [Express API reference : Reqeust](http://expressjs.com/en/4x/api.html#r
 - req.cookie
 - req.body ...
 
-#### Methods
+Methods
 
 - req.get()
 - req.param()
@@ -175,13 +175,13 @@ refer to [Express API reference : Reqeust](http://expressjs.com/en/4x/api.html#r
 
 refer to [Express API reference : Reqeust](http://expressjs.com/en/4x/api.html#res)
 
-#### Properties
+Properties
 
 - res.app
 - res.headerSent
 - res.locals
 
-#### Methods
+Methods
 
 - res.download()
 - res.end()
@@ -197,7 +197,7 @@ refer to [Express API reference : Reqeust](http://expressjs.com/en/4x/api.html#r
 
 refer to [Express API reference : Router](http://expressjs.com/en/4x/api.html#router)
 
-#### Methods
+Methods
 
 - router.all()
 - router.METHOD()
@@ -213,13 +213,13 @@ reqeust favicon
 
 refer to [npm serve-favicon](https://www.npmjs.com/package/serve-favicon)
 
-#### Installation
+Installation
 
-```
+```command
 npm install serve-favicon
 ```
 
-#### Example
+Example
 
 ```javascript
 var express = require("express");
@@ -240,9 +240,9 @@ Logging
 
 refer to [npm morgan](https://www.npmjs.com/package/morgan)
 
-#### Installation
+Installation
 
-```
+```command
 npm install morgan
 ```
 
@@ -258,9 +258,9 @@ Logging with Transports
 
 refer to [npm winston](https://www.npmjs.com/package/winston)
 
-#### Installation
+Installation
 
-```
+```command
 npm install winston
 ```
 
@@ -268,11 +268,11 @@ npm install winston
 
 ##### winston-daily-rotate-file
 
-refer to https://github.com/winstonjs/winston-daily-rotate-file
+refer to [github.com/winstonjs/winston-daily-rotate-file](https://github.com/winstonjs/winston-daily-rotate-file)
 
-###### Installation
+Installation
 
-```
+```command
 npm install winston-daily-rotate-file
 ```
 
@@ -281,9 +281,9 @@ npm install winston-daily-rotate-file
 Parse incoming request bodies in a middleware before your handlers, available under the req.body propert (Except Multipart body, use 'formidable' module)
 refer to [npm body-parser](https://www.npmjs.com/package/body-parser)
 
-#### Installation
+Installation
 
-```
+```command
 npm install body-parser
 ```
 
@@ -292,9 +292,9 @@ npm install body-parser
 Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 refer to [npm method-override](https://www.npmjs.com/package/method-override)
 
-#### Installation
+Installation
 
-```
+```command
 npm install method-override
 ```
 
@@ -319,15 +319,13 @@ app.get('/', function (req, res) {
 
 refer to [npm Embedded JavaScript Templates](https://www.npmjs.com/package/ejs)
 
-#### Installation
+Installation
 
-```
+```command
 npm install ejs
 ```
 
-#### File extension of view
-
-.ejs
+File extension of view : .ejs
 
 #### Tags
 
@@ -346,22 +344,20 @@ npm install ejs
 
 refer to [npm pug](https://www.npmjs.com/package/ejs)
 
-#### Installation
+Installation
 
-```
+```command
 npm install pug
 ```
 
-#### File extension of view
-
-.pug
+File extension of view : .pug
 
 ### Mustache
 
 refer to [npm mustache.js - Logic-less {{mustache}} templates with JavaScript](https://www.npmjs.com/package/mustache)
 
-#### Installation
+Installation
 
-```
+```command
 npm install mustache --save
 ```
