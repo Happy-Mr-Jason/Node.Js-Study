@@ -3,6 +3,7 @@ var app = express();
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
+app.use(express.static('./'));
 
 var dataList = [{
     id: "1",
@@ -20,7 +21,7 @@ var dataList = [{
     author: "sjlee",
   },
 ];
- 
+
 app.get("/", (req, res) => {
   res.render("index", {
     title: "Express Server",

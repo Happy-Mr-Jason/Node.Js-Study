@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Express Pug Template
+    link(rel="stylesheet", type="text/css", href="../resources/css/index.css")
+  body
+    h1= title
+      table
+        thead
+          tr
+            th ID
+            th Content
+            th Author
+        tbody
+          - var items= list;
+          for item in items
+           tr
+              td= item.id
+              td= item.content
+              td= item.author
+              
+          each item in list
+           tr
+              td= item.content
+              td= item.id
+              td= item.author
+    
