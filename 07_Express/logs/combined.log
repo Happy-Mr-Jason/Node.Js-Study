@@ -1,0 +1,12 @@
+{"message":"Request /","level":"info","service":"user-service"}
+{"message":"Request /hello","level":"info","service":"user-service"}
+{"message":"Request /data/3","level":"info","service":"user-service"}
+{"message":"Request /data/fdfe","level":"info","service":"user-service"}
+{"message":"This is not Number /data/fdfe","level":"error","service":"user-service"}
+{"message":"Request /data/fdfe","level":"info","service":"user-service"}
+{"message":"This is not Number /data/fdfe","level":"error","service":"user-service"}
+{"message":"Request /data/33","level":"info","service":"user-service"}
+{"message":"Request /data/fdf","level":"info","service":"user-service"}
+{"message":"This is not Number /data/fdf","level":"error","service":"user-service"}
+{"message":"Request /data/fdf","level":"info","service":"user-service"}
+{"message":"This is not Number /data/fdf","level":"error","service":"user-service"}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EJS Example</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Content</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% list.forEach(function(item){ %>
+      <tr>
+        <td><%= item.id %></td>
+        <td><%= item.content %></td>
+        <td><%= item.author %></td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+
+</html>

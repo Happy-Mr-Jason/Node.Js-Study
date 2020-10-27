@@ -20,10 +20,17 @@
   "homepage": "https://github.com/Happy-Mr-Jason/Node.Js-Study#readme",
   "dependencies": {
     "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "fast-xml-parser": "^3.17.4",
     "formidable": "^1.2.2",
-    "he": "^1.2.0"
+    "he": "^1.2.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "mocha": "^8.2.0"
