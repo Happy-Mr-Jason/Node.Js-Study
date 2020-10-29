@@ -1,19 +1,26 @@
 # MobileServer
+
 Using JSON / XML
 
 ## JSON
+
 ### Module for JSON
+
 don't need module.
 
 #### Methods
+
 1. JSON.parse() : Parses a JSON string and returns a JavaScript object
 2. JSON.stringify() : Convert a JavaScript object to a JSON string
 
 ### JSON Object
+
 refer to [w3schools.com JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
 #### Valid Data Types
+
 In JSON, values must be one of the following data types:
+
 * a string
 * a number
 * an object (containing valid JSON values)
@@ -22,11 +29,13 @@ In JSON, values must be one of the following data types:
 * null
 
 JSON values cannot be one of the following data types:
+
 * a function
 * a date
 * undefined
 
-#### Example
+Example
+
 ```JSON
 {
     "intVal": 3,
@@ -40,7 +49,7 @@ JSON values cannot be one of the following data types:
     },
     "arrayObj": [
         {
-            "type": "json", 
+            "type": "json",
             "descript":"javascript Object Notation"
         },
         {
@@ -50,21 +59,27 @@ JSON values cannot be one of the following data types:
     ]
 }
 ```
+
 ## XML
+
 ### Module for XML
+
 * fast-xml-parser (refer to [npm fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser )
 
 (There are many parsers on npmjs.com)
 
 #### Parsers
+
 * DOM Parser
 * SAX Parser
 * PULL Parser
 
-### XML Object 
+### XML Object
+
 refer to [w3schools.com XML Tutorial](https://www.w3schools.com/xml/)
 
-#### Example
+Example
+
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <breakfast_menu>
