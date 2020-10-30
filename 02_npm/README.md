@@ -158,6 +158,14 @@ using nodemon
 nodemon test.js
 ```
 
+### assert
+
+ The assert module provides a set of assertion functions for verifying invariants. refer to [npm assert](https://www.npmjs.com/package/assert)
+
+```command
+npm install assert
+```
+
 ## Create Customs Module (Export Module)
 
 xxxxxx : name of the function, class or object.

@@ -27,6 +27,8 @@
     "formidable": "^1.2.2",
     "he": "^1.2.0",
     "method-override": "^3.0.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.11",
     "morgan": "^1.10.0",
     "mysql2": "^2.2.5",
     "pug": "^3.0.0",
