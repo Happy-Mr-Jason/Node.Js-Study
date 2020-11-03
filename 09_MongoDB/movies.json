@@ -1,0 +1,214 @@
+[
+    {
+        "_id" : 0,
+        "name": "Star Wars: Episode IV - A New Hope",
+        "year": 1977,
+        "runtime": 121,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "1977-05-25",
+        "director": "George Lucas",
+        "writer": "George Lucas",
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Alec Guinness"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode IV is good~!"}
+        ]
+    }, {
+        "_id" : 1,
+        "name": "Star Wars: Episode 8 - The Last Jedi",
+        "year": 2017,
+        "runtime": 150,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "2017-12-15",
+        "director": "Rian Johnson",
+        "writer": "Rian Johnson",
+        "actors": [
+            "Mark Hamill",
+            "Carrie Fisher",
+            "Adam Driver",
+            "Daisy Ridley",
+            "John Boyega",
+            "Oscar Isaac",
+            "Andy Serkis",
+            "Lupita Nyong'o",
+            "Domhnall Gleeson"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode 8 is good~!"}
+        ]
+    }, {
+        "_id" : 2,
+        "name": "Star Wars: Episode 7 - The Force Awakens",
+        "year": 2015,
+        "runtime": 138,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "2015-12-18",
+        "director": "J.J. Abrams",
+        "writer": [
+            "Lawrence Kasdan",
+            "J.J. Abrams",
+            "Michael Arndt"
+        ],
+        "actors": [
+            "Harrison Ford",
+            "Mark Hamill",
+            "Carrie Fisher",
+            "Adam Driver",
+            "Daisy Ridley",
+            "John Boyega",
+            "Oscar Isaac"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode 7 is good~!"}
+        ]
+    }, {
+        "_id" : 3,
+        "name": "Star Wars: Episode I - The Phantom Menace",
+        "year": 1999,
+        "runtime": 136,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "1999-05-19",
+        "director": "George Lucas",
+        "writer": "George Lucas",
+        "actors": [
+            "Liam Neeson",
+            "Ewan McGregor",
+            "Natalie Portman"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode I is good~!"}
+        ]
+    }, {
+        "_id" : 4,
+        "name": "Star Wars: Episode I - The Phantom Menace",
+        "year": 1999,
+        "runtime": 136,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "1999-05-19",
+        "director": "George Lucas",
+        "writer": "George Lucas",
+        "actors": [
+            "Liam Neeson",
+            "Ewan McGregor",
+            "Natalie Portman"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode I is good~!"}
+        ]
+    }, {
+        "_id" : 5,
+        "name": "Star Wars: Episode VI - Return of the Jedi",
+        "year": 1983,
+        "runtime": 131,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "1983-05-25",
+        "director": "Richard Marquand",
+        "writer": [
+            "Lawrence Kasdan",
+            "George Lucas"
+        ],
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode VI is good~!"}
+        ]
+    }, {
+        "_id" : 6,
+        "name": "Star Wars: Episode II - Attack of the Clones",
+        "year": 2002,
+        "runtime": 142,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "2002-05-16",
+        "director": "George Lucas",
+        "writer": [
+            "George Lucas",
+            "Jonathan Hales"
+        ],
+        "actors": [
+            "Ewan McGregor",
+            "Natalie Portman",
+            "Hayden Christensen"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode II is good~!"}
+        ]
+    }, {
+        "_id" : 7,
+        "name": "Star Wars: Episode III - Revenge of the Sith",
+        "year": 2005,
+        "runtime": 140,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "2005-05-19",
+        "director": "George Lucas",
+        "writer": "George Lucas",
+        "actors": [
+            "Ewan McGregor",
+            "Natalie Portman",
+            "Hayden Christensen"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode III is good~!"}
+        ]
+    }, {
+        "_id" : 8,
+        "name": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "runtime": 124,
+        "categories": [
+            "action",
+            "adventure",
+            "sci-fi"
+        ],
+        "releasedate": "1980-06-20",
+        "director": "George Lucas",
+        "writer": "George Lucas",
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Alec Guinness"
+        ],
+        "reviews": [
+            {"writer": "sjlee", "review": "Episode V is good~!"}
+        ]
+    }
+]
