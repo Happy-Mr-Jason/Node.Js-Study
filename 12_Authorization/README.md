@@ -47,4 +47,3 @@ Module for starage of session
 ```command
 npm install connect-mongo
 ```
-
